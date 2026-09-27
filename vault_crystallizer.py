@@ -13,8 +13,8 @@ import requests
 # SRETENIYA_OS: Vault Crystallizer v.1.3 (Final Stable)
 # Автор: Ezar Garuna | Стек: SUTIcore
 
-VAULT_ROOT = Path("__USER_HOME__/Documents/SRETENIYA_OS")
-SOURCE_DIR = Path("__USER_HOME__/Downloads/UNSORTED")
+VAULT_ROOT = Path.home() / "Documents" / "SRETENIYA_OS"
+SOURCE_DIR = Path.home() / "Downloads" / "UNSORTED"
 OLLAMA_URL = "http://localhost:11434/api/generate"
 MODEL_NAME = "mistral"
 

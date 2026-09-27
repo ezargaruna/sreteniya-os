@@ -3,7 +3,7 @@ from sentence_transformers import SentenceTransformer
 
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
-vault = "__USER_HOME__/Documents/SRETENIYA"
+vault = os.path.join(os.path.expanduser("~"), "Documents", "SRETENIYA")
 
 vectors = []
 
